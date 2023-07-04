@@ -190,13 +190,9 @@ class MMPoseInferencer(BaseMMPoseInferencer):
         inputs = self.preprocess(
             inputs, batch_size=batch_size, **preprocess_kwargs)
 
-<<<<<<< HEAD
         # forward
         if 'bbox_thr' in self.inferencer.forward_kwargs:
             forward_kwargs['bbox_thr'] = preprocess_kwargs.get('bbox_thr', -1)
-=======
-        forward_kwargs['bbox_thr'] = preprocess_kwargs.get('bbox_thr', -1)
->>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 
         preds = []
 

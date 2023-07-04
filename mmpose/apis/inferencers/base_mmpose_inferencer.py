@@ -335,13 +335,8 @@ class BaseMMPoseInferencer(BaseInferencer):
                 draw_bbox=draw_bbox,
                 show=show,
                 wait_time=wait_time,
-<<<<<<< HEAD
                 kpt_thr=kpt_thr,
                 **kwargs)
-=======
-                out_file=out_file,
-                kpt_thr=kpt_thr)
->>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
             results.append(visualization)
 
             if vis_out_dir:

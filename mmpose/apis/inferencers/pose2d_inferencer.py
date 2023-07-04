@@ -98,7 +98,6 @@ class Pose2DInferencer(BaseMMPoseInferencer):
 
         # initialize detector for top-down models
         if self.cfg.data_mode == 'topdown':
-<<<<<<< HEAD
             object_type = DATASETS.get(self.cfg.dataset_type).__module__.split(
                 'datasets.')[-1].split('.')[0].lower()
 
@@ -106,27 +105,6 @@ class Pose2DInferencer(BaseMMPoseInferencer):
                 (det_model is None and
                  object_type not in default_det_models):
                 self.detector = None
-=======
-            det_scope = 'mmdet'
-            if det_model is None:
-                det_model = DATASETS.get(
-                    self.cfg.dataset_type).__module__.split(
-                        'datasets.')[-1].split('.')[0].lower()
-                det_info = default_det_models[det_model]
-                det_model, det_weights, det_cat_ids = det_info[
-                    'model'], det_info['weights'], det_info['cat_ids']
-            elif os.path.exists(det_model):
-                det_cfg = Config.fromfile(det_model)
-                det_scope = det_cfg.default_scope
-
-            if has_mmdet:
-                self.detector = DetInferencer(
-                    det_model, det_weights, device=device, scope=det_scope)
-            else:
-                raise RuntimeError(
-                    'MMDetection (v3.0.0rc6 or above) is required to '
-                    'build inferencers for top-down pose estimation models.')
->>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 
             else:
                 det_scope = 'mmdet'
@@ -245,7 +223,6 @@ class Pose2DInferencer(BaseMMPoseInferencer):
 
         return data_infos
 
-<<<<<<< HEAD
     @torch.no_grad()
     def forward(self,
                 inputs: Union[dict, tuple],
@@ -269,11 +246,6 @@ class Pose2DInferencer(BaseMMPoseInferencer):
         """
         data_samples = self.model.test_step(inputs)
         if self.cfg.data_mode == 'topdown' and merge_results:
-=======
-    def forward(self, inputs: Union[dict, tuple], bbox_thr=-1):
-        data_samples = super().forward(inputs)
-        if self.cfg.data_mode == 'topdown':
->>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
             data_samples = [merge_data_samples(data_samples)]
         if bbox_thr > 0:
             for ds in data_samples:

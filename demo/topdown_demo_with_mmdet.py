@@ -51,7 +51,6 @@ def process_one_image(args,
     elif isinstance(img, np.ndarray):
         img = mmcv.bgr2rgb(img)
 
-<<<<<<< HEAD
     if visualizer is not None:
         visualizer.add_datasample(
             'result',
@@ -65,25 +64,6 @@ def process_one_image(args,
             show=args.show,
             wait_time=show_interval,
             kpt_thr=args.kpt_thr)
-=======
-    out_file = None
-    if args.output_root:
-        out_file = f'{args.output_root}/{os.path.basename(img_path)}'
-
-    visualizer.add_datasample(
-        'result',
-        img,
-        data_sample=data_samples,
-        draw_gt=False,
-        draw_heatmap=args.draw_heatmap,
-        draw_bbox=args.draw_bbox,
-        show_kpt_idx=args.show_kpt_idx,
-        skeleton_style=args.skeleton_style,
-        show=args.show,
-        wait_time=show_interval,
-        out_file=out_file,
-        kpt_thr=args.kpt_thr)
->>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 
     # if there is no instance detected, return None
     return data_samples.get('pred_instances', None)
@@ -166,11 +146,8 @@ def main():
         default=1,
         help='Link thickness for visualization')
     parser.add_argument(
-<<<<<<< HEAD
         '--show-interval', type=int, default=0, help='Sleep seconds per frame')
     parser.add_argument(
-=======
->>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
         '--alpha', type=float, default=0.8, help='The transparency of bboxes')
     parser.add_argument(
         '--draw-bbox', action='store_true', help='Draw bboxes of instances')
@@ -220,14 +197,11 @@ def main():
     # then pass to the model in init_pose_estimator
     visualizer.set_dataset_meta(
         pose_estimator.dataset_meta, skeleton_style=args.skeleton_style)
-<<<<<<< HEAD
 
     if args.input == 'webcam':
         input_type = 'webcam'
     else:
         input_type = mimetypes.guess_type(args.input)[0].split('/')[0]
-=======
->>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 
     if input_type == 'image':
 
