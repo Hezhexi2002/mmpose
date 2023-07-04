@@ -89,7 +89,7 @@ def parse_args():
         default=0.3,
         help='IoU threshold for bounding box NMS')
     parser.add_argument(
-        '--kpt-thr', type=float, default=0.03, help='Keypoint score threshold')
+        '--kpt-thr', type=float, default=0.3, help='Keypoint score threshold')
     parser.add_argument(
         '--tracking-thr', type=float, default=0.3, help='Tracking threshold')
     parser.add_argument(

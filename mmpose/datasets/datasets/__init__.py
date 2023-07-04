@@ -7,4 +7,3 @@ from .face import *  # noqa: F401, F403
 from .fashion import *  # noqa: F401, F403
 from .hand import *  # noqa: F401, F403
 from .wholebody import *  # noqa: F401, F403
-from .rune import *  # noqa: F401, F403
