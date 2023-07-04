@@ -56,6 +56,7 @@ We have prepared detailed guidelines for all types of users:
    - [How to Deploy](./advanced_guides/how_to_deploy.md)
    - [Model Analysis](./advanced_guides/model_analysis.md)
    - [Migration Guide](./migration.md)
+<<<<<<< HEAD
 
 4. For researchers and developers who are willing to contribute to MMPose:
 
@@ -63,4 +64,9 @@ We have prepared detailed guidelines for all types of users:
 
 5. For some common issues, we provide a FAQ list:
 
+=======
+5. For researchers and developers who are willing to contribute to MMPose:
+   - [Contribution Guide](./contribution_guide.md)
+6. For some common issues, we provide a FAQ list:
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
    - [FAQ](./faq.md)

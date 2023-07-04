@@ -272,8 +272,13 @@ class PoseLocalVisualizer(OpencvBackendVisualizer):
                 neck = np.mean(keypoints_info[:, [5, 6]], axis=1)
                 # neck score when visualizing pred
                 neck[:, 2:4] = np.logical_and(
+<<<<<<< HEAD
                     keypoints_info[:, 5, 2:4] > kpt_thr,
                     keypoints_info[:, 6, 2:4] > kpt_thr).astype(int)
+=======
+                    keypoints_info[:, 5, 2:4] < kpt_thr,
+                    keypoints_info[:, 6, 2:4] < kpt_thr).astype(int)
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
                 new_keypoints_info = np.insert(
                     keypoints_info, 17, neck, axis=1)
 
@@ -304,6 +309,38 @@ class PoseLocalVisualizer(OpencvBackendVisualizer):
                         f'({len(self.kpt_color)}) does not matches '
                         f'that of keypoints ({len(kpts)})')
 
+<<<<<<< HEAD
+=======
+                # draw each point on image
+                for kid, kpt in enumerate(kpts):
+                    if score[kid] < kpt_thr or not visible[
+                            kid] or kpt_color[kid] is None:
+                        # skip the point that should not be drawn
+                        continue
+
+                    color = kpt_color[kid]
+                    if not isinstance(color, str):
+                        color = tuple(int(c) for c in color)
+                    transparency = self.alpha
+                    if self.show_keypoint_weight:
+                        transparency *= max(0, min(1, score[kid]))
+                    self.draw_circles(
+                        kpt,
+                        radius=np.array([self.radius]),
+                        face_colors=color,
+                        edge_colors=color,
+                        alpha=transparency,
+                        line_widths=self.radius)
+                    if show_kpt_idx:
+                        self.draw_texts(
+                            str(kid),
+                            kpt,
+                            colors=color,
+                            font_sizes=self.radius * 3,
+                            vertical_alignments='bottom',
+                            horizontal_alignments='center')
+
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
                 # draw links
                 if self.skeleton is not None and self.link_color is not None:
                     if self.link_color is None or isinstance(
@@ -350,8 +387,13 @@ class PoseLocalVisualizer(OpencvBackendVisualizer):
                                 math.atan2(Y[0] - Y[1], X[0] - X[1]))
                             polygons = cv2.ellipse2Poly(
                                 (int(mX), int(mY)),
+<<<<<<< HEAD
                                 (int(length / 2), int(self.line_width)),
                                 int(angle), 0, 360, 1)
+=======
+                                (int(length / 2), int(stickwidth)), int(angle),
+                                0, 360, 1)
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 
                             self.draw_polygons(
                                 polygons,

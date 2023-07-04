@@ -22,8 +22,13 @@ You can change the documentation language at the lower-left corner of the page.
 
    user_guides/inference.md
    user_guides/configs.md
+<<<<<<< HEAD
    user_guides/prepare_datasets.md
    user_guides/train_and_test.md
+=======
+   user_guides/train_and_test.md
+   user_guides/prepare_datasets.md
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 
 .. toctree::
    :maxdepth: 1

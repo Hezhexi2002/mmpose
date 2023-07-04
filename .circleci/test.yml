@@ -83,7 +83,11 @@ jobs:
         type: string
       cuda:
         type: enum
+<<<<<<< HEAD
         enum: ["11.0", "11.7"]
+=======
+        enum: ["11.0"]
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
       cudnn:
         type: integer
         default: 8
@@ -172,6 +176,7 @@ workflows:
           # Use double quotation mark to explicitly specify its type
           # as string instead of number
           cuda: "11.0"
+<<<<<<< HEAD
           requires:
             - hold
       - build_cuda:
@@ -179,6 +184,8 @@ workflows:
           torch: 2.0.0
           cuda: "11.7"
           cudnn: 8
+=======
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
           requires:
             - hold
   merge_stage_test:

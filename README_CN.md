@@ -170,6 +170,7 @@ MMPose v1.0.0 是一个重大更新，包括了大量的 API 和配置文件的�
 
 ## 安装
 
+<<<<<<< HEAD
 关于安装的详细说明请参考[安装文档](https://mmpose.readthedocs.io/zh_CN/latest/installation.html)。
 
 ## 教程
@@ -177,6 +178,9 @@ MMPose v1.0.0 是一个重大更新，包括了大量的 API 和配置文件的�
 我们提供了一系列简明的教程，帮助 MMPose 的新用户轻松上手使用：
 
 1. MMPose 的基本使用方法：
+=======
+关于安装的详细说明请参考[安装文档](https://mmpose.readthedocs.io/zh_CN/1.x/installation.html)。
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 
    - [20 分钟上手教程](https://mmpose.readthedocs.io/zh_CN/latest/guide_to_framework.html)
    - [Demos](https://mmpose.readthedocs.io/zh_CN/latest/demos.html)
@@ -187,6 +191,7 @@ MMPose v1.0.0 是一个重大更新，包括了大量的 API 和配置文件的�
 
 2. 对于希望基于 MMPose 进行开发的研究者和开发者：
 
+<<<<<<< HEAD
    - [编解码器](https://mmpose.readthedocs.io/zh_CN/latest/advanced_guides/codecs.html)
    - [数据流](https://mmpose.readthedocs.io/zh_CN/latest/advanced_guides/dataflow.html)
    - [实现新模型](https://mmpose.readthedocs.io/zh_CN/latest/advanced_guides/implement_new_models.html)
@@ -205,6 +210,16 @@ MMPose v1.0.0 是一个重大更新，包括了大量的 API 和配置文件的�
 4. 对于使用过程中的常见问题：
 
    - [FAQ](https://mmpose.readthedocs.io/zh_CN/latest/faq.html)
+=======
+- [20 分钟了解 MMPose 架构设计](https://mmpose.readthedocs.io/zh_CN/1.x/guide_to_framework.html)
+- [学习配置文件](https://mmpose.readthedocs.io/zh_CN/1.x/user_guides/configs.html)
+- [准备数据集](https://mmpose.readthedocs.io/zh_CN/1.x/user_guides/prepare_datasets.html)
+- [关键点编码、解码机制](https://mmpose.readthedocs.io/zh_CN/1.x/user_guides/codecs.html)
+- [使用现有模型推理](https://mmpose.readthedocs.io/zh_CN/1.x/user_guides/inference.html)
+- [模型训练和测试](https://mmpose.readthedocs.io/zh_CN/1.x/user_guides/train_and_test.html)
+- [可视化工具](https://mmpose.readthedocs.io/zh_CN/1.x/user_guides/visualization.html)
+- [其他实用工具](https://mmpose.readthedocs.io/zh_CN/1.x/user_guides/how_to.html)
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 
 ## 模型库
 
@@ -254,6 +269,7 @@ MMPose v1.0.0 是一个重大更新，包括了大量的 API 和配置文件的�
 </details>
 
 <details close>
+<<<<<<< HEAD
 <summary><b>支持的数据集</b></summary>
 
 - [x] [AFLW](https://mmpose.readthedocs.io/zh_CN/latest/model_zoo_papers/datasets.html#aflw-iccvw-2011) \[[主页](https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/aflw/)\] (ICCVW'2011)
@@ -289,6 +305,41 @@ MMPose v1.0.0 是一个重大更新，包括了大量的 API 和配置文件的�
 - [x] [Horse-10](https://mmpose.readthedocs.io/zh_CN/latest/model_zoo_papers/datasets.html#horse-10-wacv-2021) \[[主页](http://www.mackenziemathislab.org/horse10)\] (WACV'2021)
 - [x] [Human-Art](https://mmpose.readthedocs.io/zh_CN/latest/model_zoo_papers/datasets.html#human-art-cvpr-2023) \[[主页](https://idea-research.github.io/HumanArt/)\] (CVPR'2023)
 - [x] [LaPa](https://mmpose.readthedocs.io/zh_CN/latest/model_zoo_papers/datasets.html#lapa-aaai-2020) \[[主页](https://github.com/JDAI-CV/lapa-dataset)\] (AAAI'2020)
+=======
+<summary><b>支持的<a href="https://mmpose.readthedocs.io/zh_CN/1.x/datasets.html">数据集</a></b></summary>
+
+- [x] [AFLW](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#aflw-iccvw-2011) \[[主页](https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/aflw/)\] (ICCVW'2011)
+- [x] [sub-JHMDB](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#jhmdb-iccv-2013) \[[主页](http://jhmdb.is.tue.mpg.de/dataset)\] (ICCV'2013)
+- [x] [COFW](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#cofw-iccv-2013) \[[主页](http://www.vision.caltech.edu/xpburgos/ICCV13/)\] (ICCV'2013)
+- [x] [MPII](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#mpii-cvpr-2014) \[[主页](http://human-pose.mpi-inf.mpg.de/)\] (CVPR'2014)
+- [x] [Human3.6M](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#human3-6m-tpami-2014) \[[主页](http://vision.imar.ro/human3.6m/description.php)\] (TPAMI'2014)
+- [x] [COCO](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#coco-eccv-2014) \[[主页](http://cocodataset.org/)\] (ECCV'2014)
+- [x] [CMU Panoptic](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#cmu-panoptic-iccv-2015) (ICCV'2015)
+- [x] [DeepFashion](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#deepfashion-cvpr-2016) \[[主页](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/LandmarkDetection.html)\] (CVPR'2016)
+- [x] [300W](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#300w-imavis-2016) \[[主页](https://ibug.doc.ic.ac.uk/resources/300-W/)\] (IMAVIS'2016)
+- [x] [RHD](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#rhd-iccv-2017) \[[主页](https://lmb.informatik.uni-freiburg.de/resources/datasets/RenderedHandposeDataset.en.html)\] (ICCV'2017)
+- [x] [CMU Panoptic](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#cmu-panoptic-iccv-2015) \[[主页](http://domedb.perception.cs.cmu.edu/)\] (ICCV'2015)
+- [x] [AI Challenger](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#ai-challenger-arxiv-2017) \[[主页](https://github.com/AIChallenger/AI_Challenger_2017)\] (ArXiv'2017)
+- [x] [MHP](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#mhp-acm-mm-2018) \[[主页](https://lv-mhp.github.io/dataset)\] (ACM MM'2018)
+- [x] [WFLW](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#wflw-cvpr-2018) \[[主页](https://wywu.github.io/projects/LAB/WFLW.html)\] (CVPR'2018)
+- [x] [PoseTrack18](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#posetrack18-cvpr-2018) \[[主页](https://posetrack.net/users/download.php)\] (CVPR'2018)
+- [x] [OCHuman](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#ochuman-cvpr-2019) \[[主页](https://github.com/liruilong940607/OCHumanApi)\] (CVPR'2019)
+- [x] [CrowdPose](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#crowdpose-cvpr-2019) \[[主页](https://github.com/Jeff-sjtu/CrowdPose)\] (CVPR'2019)
+- [x] [MPII-TRB](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#mpii-trb-iccv-2019) \[[主页](https://github.com/kennymckormick/Triplet-Representation-of-human-Body)\] (ICCV'2019)
+- [x] [FreiHand](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#freihand-iccv-2019) \[[主页](https://lmb.informatik.uni-freiburg.de/projects/freihand/)\] (ICCV'2019)
+- [x] [Animal-Pose](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#animal-pose-iccv-2019) \[[主页](https://sites.google.com/view/animal-pose/)\] (ICCV'2019)
+- [x] [OneHand10K](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#onehand10k-tcsvt-2019) \[[主页](https://www.yangangwang.com/papers/WANG-MCC-2018-10.html)\] (TCSVT'2019)
+- [x] [Vinegar Fly](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#vinegar-fly-nature-methods-2019) \[[主页](https://github.com/jgraving/DeepPoseKit-Data)\] (Nature Methods'2019)
+- [x] [Desert Locust](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#desert-locust-elife-2019) \[[主页](https://github.com/jgraving/DeepPoseKit-Data)\] (Elife'2019)
+- [x] [Grévy’s Zebra](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#grevys-zebra-elife-2019) \[[主页](https://github.com/jgraving/DeepPoseKit-Data)\] (Elife'2019)
+- [x] [ATRW](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#atrw-acm-mm-2020) \[[主页](https://cvwc2019.github.io/challenge.html)\] (ACM MM'2020)
+- [x] [Halpe](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#halpe-cvpr-2020) \[[主页](https://github.com/Fang-Haoshu/Halpe-FullBody/)\] (CVPR'2020)
+- [x] [COCO-WholeBody](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#coco-wholebody-eccv-2020) \[[主页](https://github.com/jin-s13/COCO-WholeBody/)\] (ECCV'2020)
+- [x] [MacaquePose](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#macaquepose-biorxiv-2020) \[[主页](http://www.pri.kyoto-u.ac.jp/datasets/macaquepose/index.html)\] (bioRxiv'2020)
+- [x] [InterHand2.6M](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#interhand2-6m-eccv-2020) \[[主页](https://mks0601.github.io/InterHand2.6M/)\] (ECCV'2020)
+- [x] [AP-10K](https://mmpose.readthedocs.io/en/1.x/model_zoo_papers/datasets.html#ap-10k-neurips-2021) \[[主页](https://github.com/AlexTheBad/AP-10K)\] (NeurIPS'2021)
+- [x] [Horse-10](https://mmpose.readthedocs.io/zh_CN/1.x/model_zoo_papers/datasets.html#horse-10-wacv-2021) \[[主页](http://www.mackenziemathislab.org/horse10)\] (WACV'2021)
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 
 </details>
 
@@ -318,7 +369,11 @@ MMPose v1.0.0 是一个重大更新，包括了大量的 API 和配置文件的�
 
 ## 参与贡献
 
+<<<<<<< HEAD
 我们非常欢迎用户对于 MMPose 做出的任何贡献，可以参考 [贡献指南](https://mmpose.readthedocs.io/zh_CN/latest/contribution_guide.html) 文件了解更多细节。
+=======
+我们非常欢迎用户对于 MMPose 做出的任何贡献，可以参考 [贡献指南](https://mmpose.readthedocs.io/zh_CN/1.x/contribution_guide.html) 文件了解更多细节。
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 
 ## 致谢
 

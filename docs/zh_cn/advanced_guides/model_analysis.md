@@ -1,5 +1,6 @@
 # Model Analysis
 
+<<<<<<< HEAD
 ## 统计模型参数量与计算量
 
 MMPose 提供了 `tools/analysis_tools/get_flops.py` 来统计模型的参数量与计算量。
@@ -98,3 +99,6 @@ fastest epoch 1, average time is 0.6502
 time std over epochs is 0.0085
 average iter time: 0.6688 s/iter
 ```
+=======
+Coming soon.
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a

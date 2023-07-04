@@ -108,6 +108,15 @@ data_mode = 'topdown'
 data_root = 'data/coco/'
 
 backend_args = dict(backend='local')
+<<<<<<< HEAD
+=======
+# backend_args = dict(
+#     backend='petrel',
+#     path_mapping=dict({
+#         f'{data_root}': 's3://openmmlab/datasets/detection/coco/',
+#         f'{data_root}': 's3://openmmlab/datasets/detection/coco/'
+#     }))
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 
 # pipelines
 train_pipeline = [

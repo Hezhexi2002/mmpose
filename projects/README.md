@@ -16,11 +16,19 @@ If you're not sure where to start, check out our [example project](./example_pro
 
 We also provide some documentation listed below to help you get started:
 
+<<<<<<< HEAD
 - [New Model Guide](https://mmpose.readthedocs.io/en/latest/guide_to_framework.html#step3-model)
 
   A guide to help you add new models to MMPose.
 
 - [Contribution Guide](https://mmpose.readthedocs.io/en/latest/contribution_guide.html)
+=======
+- [New Model Guide](https://mmpose.readthedocs.io/en/1.x/guide_to_framework.html#step3-model)
+
+  A guide to help you add new models to MMPose.
+
+- [Contribution Guide](https://mmpose.readthedocs.io/en/1.x/contribution_guide.html)
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 
   A guide for new contributors on how to add their projects to MMPose.
 
@@ -33,7 +41,11 @@ We also provide some documentation listed below to help you get started:
 - **[:zap:RTMPose](./rtmpose)**: Real-Time Multi-Person Pose Estimation toolkit based on MMPose
 
   <div align="center">
+<<<<<<< HEAD
   <img src="https://github.com/open-mmlab/mmpose/assets/13503330/5b637d76-41dd-4376-9a7f-854cd120799d" width=800 height=200 />
+=======
+  <img src="https://user-images.githubusercontent.com/15977946/225229448-36ff568d-a723-4248-bb19-2df4044ff8e8.png" width=800 height=200 />
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
   </div><br/>
 
 - **[:art:MMPose4AIGC](./mmpose4aigc)**: Guide AI image generation with MMPose
@@ -48,10 +60,13 @@ We also provide some documentation listed below to help you get started:
   <img src="https://user-images.githubusercontent.com/26127467/226655503-3cee746e-6e42-40be-82ae-6e7cae2a4c7e.jpg" width="800" style="width: 800px; height: 200px; object-fit: cover"/>
   </div><br/>
 
+<<<<<<< HEAD
 - **[📖Awesome MMPose](./awesome-mmpose/)**: A list of Tutorials, Papers, Datasets related to MMPose
 
   <div align=center>
   <img src="https://user-images.githubusercontent.com/13503330/231416285-5467d313-0732-4ada-97e1-12be6ec69a28.png" width="800"/>
   </div><br/>
 
+=======
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 - **What's next? Join the rank of <span style="color:blue"> *MMPose contributors* </span> by creating a new  project**!

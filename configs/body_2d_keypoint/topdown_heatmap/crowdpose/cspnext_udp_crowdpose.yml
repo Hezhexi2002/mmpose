@@ -17,4 +17,8 @@ Models:
       AP@0.5: 0.821
       AP@0.75: 0.723
     Task: Body 2D Keypoint
+<<<<<<< HEAD
   Weights: https://download.openmmlab.com/mmpose/v1/projects/rtmposev1/cspnext-m_udp-crowdpose_pt-in1k_210e-256x192-f591079f_20230123.pth
+=======
+  Weights: https://download.openmmlab.com/mmpose/v1/projects/rtmpose/rtmpose-m_udp-crowdpose_pt-in1k_210e-256x192-f591079f_20230123.pth
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a

@@ -384,6 +384,10 @@ Since the official dataset does not provide the test set, we randomly select 90%
 <div align="center">
   <img src="https://user-images.githubusercontent.com/100993824/227802783-ace952bb-1ff9-4720-80a8-c63cc9e714b6.png" height="200px">
 </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 For [Grévy’s Zebra](https://github.com/jgraving/DeepPoseKit-Data) dataset, images can be downloaded from [zebra_images](https://download.openmmlab.com/mmpose/datasets/zebra_images.tar).
 Please download the annotation files from [zebra_annotations](https://download.openmmlab.com/mmpose/datasets/zebra_annotations.tar).
 Extract them under {MMPose}/data, and make them look like this:
@@ -432,6 +436,10 @@ Since the official dataset does not provide the test set, we randomly select 90%
 <div align="center">
   <img src="https://user-images.githubusercontent.com/100993824/227797386-fce99241-8a0e-4a40-a179-dad013e6c5a4.png" height="200px">
 </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 ATRW captures images of the Amur tiger (also known as Siberian tiger, Northeast-China tiger) in the wild.
 For [ATRW](https://cvwc2019.github.io/challenge.html) dataset, please download images from
 [Pose_train](https://lilablobssc.blob.core.windows.net/cvwc2019/train/atrw_pose_train.tar.gz),

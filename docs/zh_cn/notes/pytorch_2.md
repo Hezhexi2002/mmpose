@@ -1,5 +1,6 @@
 # PyTorch 2.0 Compatibility and Benchmarks
 
+<<<<<<< HEAD
 MMPose 1.0.0 is now compatible with PyTorch 2.0, ensuring that users can leverage the latest features and performance improvements offered by the PyTorch 2.0 framework when using MMPose. With the integration of inductor, users can expect faster model speeds. The table below shows several example models:
 
 | Model     |     Training Speed      |    Memory     |
@@ -12,3 +13,6 @@ MMPose 1.0.0 is now compatible with PyTorch 2.0, ensuring that users can leverag
 | RTMPose-s | 13.1% ↑ (1.645 → 1.430) |  9013 → 9208  |
 
 - Pytorch 2.0 test, add projects doc and refactor by @LareinaM in [PR#2136](https://github.com/open-mmlab/mmpose/pull/2136)
+=======
+Coming soon.
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a

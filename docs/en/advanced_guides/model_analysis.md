@@ -1,5 +1,6 @@
 # Model Analysis
 
+<<<<<<< HEAD
 ## Get Model Params & FLOPs
 
 MMPose provides `tools/analysis_tools/get_flops.py` to get model parameters and FLOPs.
@@ -100,3 +101,6 @@ fastest epoch 1, average time is 0.6502
 time std over epochs is 0.0085
 average iter time: 0.6688 s/iter
 ```
+=======
+Coming soon.
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a

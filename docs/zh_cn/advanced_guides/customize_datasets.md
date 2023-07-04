@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 自定义数据集
 
 MMPose 目前已支持了多个任务和相应的数据集。您可以在 [数据集](https://mmpose.readthedocs.io/zh_CN/latest/dataset_zoo.html) 找到它们。请按照相应的指南准备数据。
@@ -262,3 +263,8 @@ combined_dataset = dict(
 - **合并数据集的元信息** 决定了标注格式，可以是子数据集的元信息，也可以是自定义的元信息。如果要自定义元信息，可以参考 [创建自定义数据集的元信息文件](#创建自定义数据集的元信息文件)。
 - **KeypointConverter** 用于将不同的标注格式转换成统一的格式。比如将关键点个数不同、关键点排列顺序不同的数据集进行合并。
 - 更详细的说明请前往[混合数据集训练](../user_guides/mixed_datasets.md)。
+=======
+# Customize Datasets
+
+Coming soon.
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a

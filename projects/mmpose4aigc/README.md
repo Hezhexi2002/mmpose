@@ -25,7 +25,11 @@ Run the following commands to prepare the project:
 ```shell
 # install mmpose mmdet
 pip install openmim
+<<<<<<< HEAD
 git clone https://github.com/open-mmlab/mmpose.git
+=======
+git clone -b 1.x https://github.com/open-mmlab/mmpose.git
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 cd mmpose
 mim install -e .
 mim install "mmdet>=3.0.0rc6"
@@ -83,7 +87,11 @@ Run the following command to generate a skeleton image:
 ```shell
 # generate a skeleton image
 bash mmpose_style_skeleton.sh \
+<<<<<<< HEAD
     mmdeploy-1.0.0-linux-x86_64-cxx11abi/rtmpose-ort/000000147979.jpg
+=======
+    mmdeploy-1.0.0rc3-linux-x86_64-onnxruntime1.8.1/rtmpose-ort/000000147979.jpg
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 ```
 
 For more details, you can refer to [RTMPose](../rtmpose/README.md).

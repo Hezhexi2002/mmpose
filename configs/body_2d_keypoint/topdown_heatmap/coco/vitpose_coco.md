@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 To utilize ViTPose, you'll need to have [MMPreTrain](https://github.com/open-mmlab/mmpretrain). To install the required version, run the following command:
 
 ```shell
 mim install 'mmpretrain>=1.0.0'
+=======
+To utilize ViTPose, you'll need to have [MMClassification](https://github.com/open-mmlab/mmclassification). To install the required version, run the following command:
+
+```shell
+mim install 'mmcls>=1.0.0rc5'
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
 ```
 
 <!-- [BACKBONE] -->

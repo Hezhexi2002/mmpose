@@ -725,8 +725,13 @@ cd ${PATH_TO_MMDEPLOY}
 # 输入模型路径可以是本地路径，也可以是下载链接。
 python tools/deploy.py \
     configs/mmdet/detection/detection_onnxruntime_static.py \
+<<<<<<< HEAD
     ../mmpose/projects/rtmpose/rtmdet/person/rtmdet_nano_320-8xb32_coco-person.py \
     https://download.openmmlab.com/mmpose/v1/projects/rtmpose/rtmdet_nano_8xb32-100e_coco-obj365-person-05d8511e.pth \
+=======
+    {RTMPOSE_PROJECT}/rtmdet/person/rtmdet_nano_320-8xb32_coco-person.py \
+    ../rtmdet_nano/rtmdet_nano.pth \
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
     demo/resources/human-pose.jpg \
     --work-dir rtmpose-ort/rtmdet-nano \
     --device cpu \
@@ -811,8 +816,13 @@ backend_config = dict(
 # 输入模型路径可以是本地路径，也可以是下载链接。
 python tools/deploy.py \
     configs/mmdet/detection/detection_onnxruntime_dynamic.py \
+<<<<<<< HEAD
     ../mmpose/projects/rtmpose/rtmdet/person/rtmdet_nano_320-8xb32_coco-person.py \
     https://download.openmmlab.com/mmpose/v1/projects/rtmpose/rtmdet_nano_8xb32-100e_coco-obj365-person-05d8511e.pth \
+=======
+    {RTMPOSE_PROJECT}/rtmdet/person/rtmdet_nano_320-8xb32_coco-person.py \
+    ../rtmdet_nano/rtmdet_nano.pth \
+>>>>>>> 37bb15c868d4c0b53f2ed746e933a1ec2d60310a
     demo/resources/human-pose.jpg \
     --work-dir rtmpose-ort/rtmdet-nano \
     --device cpu \
